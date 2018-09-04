@@ -12,7 +12,7 @@
     <author>Sam Zilverberg</author>
     <keywords>mixpanel, cordova, phonegap, ionic, plugin, ios, android</keywords>
 
-    <js-module src="www/mixpanel.js" name="Mixpanel">
+    <js-module src="www/mp.js" name="Mixpanel">
         <clobbers target="mixpanel"/>
     </js-module>
 

@@ -34,11 +34,11 @@ mixpanel.alias = mixpanel.createAlias = function(alias, originalId, onSuccess, o
     mixpanel.distinctId(
       function(distinctId){
         exec(onSuccess, onFail, 'Mixpanel', 'alias', [alias, distinctId]);
-      }, 
+      },
       onFail
     );
   } else {
-    exec(onSuccess, onFail, 'Mixpanel', 'alias', [alias, originalId]);  
+    exec(onSuccess, onFail, 'Mixpanel', 'alias', [alias, originalId]);
   }
 };
 
