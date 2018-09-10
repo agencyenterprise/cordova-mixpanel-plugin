@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/samzilverberg/cordova-mixpanel-plugin.git"
+    "url": "git+https://github.com/agencyenterprise/cordova-mixpanel-plugin.git"
   },
   "homepage": "https://github.com/samzilverberg/cordova-mixpanel-plugin#readme",
   "keywords": [
